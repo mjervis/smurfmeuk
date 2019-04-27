@@ -1,6 +1,8 @@
-body
+html, body
 {
 	font-family: helvetica, arial, sans-serif;
+	padding: 0px;
+	margin: 0px;
 }
 
 dt {
@@ -8,8 +10,8 @@ dt {
 }
 
 article {
-	margin-left: 25%;
-	margin-right: 25%;
+	margin-left: 20%;
+	margin-right: 20%;
 	padding-bottom: 50px;
 }
 
@@ -26,21 +28,23 @@ a:hover {
 }
 
 header {
-	margin-left: 10%;
-	margin-right: 10%;
-}
-
-h1 {
-	text-align: center;
+	background-color: blue;
+	color: white;
+	margin-bottom: 10px;
+	padding: 0px;
+	padding-left: 10px;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
 nav {
-	   height: 100%; /* 100% Full-height */
+  height: 100%; /* 100% Full-height */
   position: fixed; /* Stay in place */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
+  padding-top: 100px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
